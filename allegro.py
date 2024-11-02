@@ -8,11 +8,11 @@ def generate_video(token):
         "Content-Type": "application/json"
     }
     data = {
-        "refined_prompt": "You are a music video director that creates music videos for popular songs",
+        "refined_prompt": "First Person View: A massive mutated lemon monster roars with glowing red eyes, in one hand he is holding a minivan. The setting is New York city, and destruction can be seen where the Lemon monster has been. in the first person view we can see a lightsaber being held in the right hand and a cartoon style bomb in the other. Dramatic, cinematic.",
         "num_step": 100,
         "cfg_scale": 7.5,
-        "user_prompt": "Create an aesthetically pleasing drone shot of a mountain range",
-        "rand_seed": 12345
+        "user_prompt": "",
+        "rand_seed": 100000
     }
 
     try:
