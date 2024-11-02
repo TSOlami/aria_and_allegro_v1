@@ -8,10 +8,10 @@ def generate_video(token):
         "Content-Type": "application/json"
     }
     data = {
-        "refined_prompt": "Handsome man running on the streets of Tokyo",
+        "refined_prompt": "You are a music video director that creates music videos for popular songs",
         "num_step": 100,
         "cfg_scale": 7.5,
-        "user_prompt": "Handsome man running on the streets of Tokyo",
+        "user_prompt": "Create an aesthetically pleasing drone shot of a mountain range",
         "rand_seed": 12345
     }
 
